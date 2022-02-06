@@ -52,11 +52,10 @@ public class Main {
         int k = 0;
         int l = 1;
 
-        System.out.print(k + " " + l + " ");
-        for (int j = 1; j <= 4; j++) {
+        for (int j = 1; j <= 5; j++) {
+            System.out.print(k + " " + l + " ");
             k = k + l;
             l = k + l;
-            System.out.print(k + " " + l + " ");
         }
 
         // Задание 5 (while)
