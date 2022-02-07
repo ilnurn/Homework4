@@ -43,19 +43,20 @@ public class Main {
         }
 
         // Задание 4
-        for (int a = 1; a <= 30; a = a + 1) {
-            if (a % 3 == 0 && a % 5 == 0) {
-                System.out.println(a + ": ping pong");
-            } else if (a % 3 == 0) {
-                System.out.println(a + ": ping");
-            } else if (a % 5 == 0) {
-                System.out.println(a + ": pong");
-            } else {
-                System.out.println(a + ":");
+        for (int a = 1; a <= 30; a++) {
+            System.out.println();
+            System.out.print(a + ":");
+            if ((a % 3 == 0) || (a % 3 == 0 && a % 5 == 0)) {
+                System.out.print(" ping");
+            }
+            if (a % 5 == 0) {
+               System.out.print(" pong");
             }
         }
 
         // Задание 5 (for)
+        System.out.println();
+
         int k = 0;
         int l = 1;
 
