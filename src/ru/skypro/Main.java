@@ -46,7 +46,7 @@ public class Main {
         for (int a = 1; a <= 30; a++) {
             System.out.println();
             System.out.print(a + ":");
-            if ((a % 3 == 0) || (a % 3 == 0 && a % 5 == 0)) {
+            if (a % 3 == 0) {
                 System.out.print(" ping");
             }
             if (a % 5 == 0) {
